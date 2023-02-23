@@ -23,10 +23,10 @@ void PIR()
 {
   current_State = !current_State;
   digitalWrite(LED, current_State);
-  Serial.println("Motion sesnor Interrupted");
+  Serial.println("MotioN Interrupt");
 }
 
 void soil_moisture()
 {
-  Serial.println("Soil Moisture sensor Interrupted");
+  Serial.println("Soil Moisture Interrupt");
 }
